@@ -1,12 +1,13 @@
 # NBT
 
-Nammed binary tags (dead dimple and error-free serialization format).
+Nammed binary tags (dead simple and error-free serialization format).
 Note: this has absolutelly nothing to do with minecraft NBT format.
 
 #### Just...Why???
 
 * Message pack and others cannot map to non-concrete types.
 * More cusomisable to suit my needs.
+* Recursive and Dynamic (nested maps and arrays with with mixed datatypes) 
 
 #### Example
 
@@ -106,3 +107,4 @@ map        = 0b00000110
 * Add more tests and benchmarks
 * Make map keys an different type of string (type header not needed as map keys can only be strings)
 * Map NBTs to structs using json tags
+* Add API for custom encoders and decoders
