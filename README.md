@@ -7,7 +7,8 @@ Note: this has absolutelly nothing to do with minecraft NBT format.
 
 * Message pack and others cannot map to non-concrete types.
 * More cusomisable to suit my needs.
-* Recursive and Dynamic (nested maps and arrays with with mixed datatypes) 
+* Dynamic (deeply nested maps and arrays with with mixed datatypes)
+* If you dont need an schema-free, flexible, _fast_ and dynamic, yet simple and small serialization method, nbt probably isn't what you are looking for.
 
 #### Example
 
